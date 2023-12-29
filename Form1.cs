@@ -43,7 +43,7 @@ namespace _13___interfacce
             textBox12.Text = "";
 
 
-            Totale = ala.SommaCosti() + fusoliera.SommaCosti() + coda.SommaCosti() + ruota.SommaCosti();
+            Totale = ala.Costo() + fusoliera.Costo() + coda.Costo() + ruota.Costo();
             Descrizione = aliante.Descrizione() + fusoliera.Descrizione();
         }
 

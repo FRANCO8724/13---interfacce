@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace _13___interfacce
 {
-    internal class Interfaccia
+    public interface IComponente
     {
+        double Costo();
+        string Descrizione();
+
     }
 }
